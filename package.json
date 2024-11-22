@@ -1,0 +1,17 @@
+{
+  "name": "aturcotte.com",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rough-notation": "^0.5.1",
+    "sass": "^1.80.6",
+    "simple-parallax-js": "^6.0.1",
+    "vite": "^5.4.10"
+  }
+}

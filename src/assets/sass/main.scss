@@ -1,0 +1,17 @@
+@use "./my-rules.scss";
+:root {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  --highlight: #7fbb8f;
+}
+
+html[data-theme="light"] {
+  --primary: #d9d7d6;
+  --secondary: #382d2b;
+}
+
+html[data-theme="dark"] {
+  --primary: #382d2b;
+  --secondary: #d9d7d6;
+}
