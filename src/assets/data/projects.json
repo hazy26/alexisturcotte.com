@@ -7,7 +7,7 @@
     "category": "conception / programmation /",
     "techs": "html / css / wordpress / php / mysql /",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "href": "#"
+    "href": "https://github.com/hazy26?tab=repositories"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "category": "conception / programmation /",
     "techs": "html / css / tailwind / javascript / API /",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "href": "#"
+    "href": "https://github.com/hazy26?tab=repositories"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
     "category": "conception / programmation /",
     "techs": "html / react / javascript",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "href": "#"
+    "href": "https://github.com/hazy26?tab=repositories"
   }
 ]
