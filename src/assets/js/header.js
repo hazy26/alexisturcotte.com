@@ -5,7 +5,7 @@ header.innerHTML = `
         <li><a href="#projets" class="color-secondary font-6 weight-400 letter-spacing-1 no-underline hover-underline">projets</a></li>
         <li><a href="#contact" class="color-secondary font-6 weight-400 letter-spacing-1 no-underline hover-underline">contact</a></li>
     </ul>
-    <button class="font-8 color-secondary button-off theme-btn">
+    <button class="font-8 color-secondary no-border bg-transparent theme-btn">
         <i class="fa-regular fa-moon pointer theme-icon theme-notation"></i>
     </button>
 </div>
@@ -20,6 +20,6 @@ header.innerHTML = `
 
 <div class="self-center flex flex-col items-center gap-1 pb-2">
     <p class="font-6 weight-400 letter-spacing-2 px-1 animate__animated animate__bounce animate__infinite animate__slower">scroll</p>
-    <div class="scroll"></div>
+    <div class="bg-secondary h-40 w-px-1"></div>
 </div>
 `;

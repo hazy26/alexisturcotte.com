@@ -14,7 +14,7 @@ projectsData.forEach((project) => {
   const listItem = document.createElement("li");
   listItem.innerHTML = `
     <li class="flex flex-col">
-      <h3 class="flex items-center gap-1 w-60 font-10 weight-400 max-w-520"><span class="green-bar h-12 w-full"></span><span>${project.id}</span></h3>
+      <h3 class="flex items-center gap-1 w-60 font-10 weight-400 max-w-520"><span class="bg-highlight h-12 w-full"></span><span>${project.id}</span></h3>
       <div class="px-1 py-1 flex flex-col gap-1">
         <figure class="flex flex-col gap-1">
           <figcaption class="font-6 weight-400">${project.name}</figcaption>

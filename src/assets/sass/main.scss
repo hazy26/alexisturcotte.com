@@ -1,17 +1,24 @@
-@use "./my-rules.scss";
-:root {
-  font-family: "Montserrat", serif;
-  font-size: 16px;
-  scroll-behavior: smooth;
-  --highlight: #7fbb8f;
-}
+@use "./rules.scss";
 
-html[data-theme="light"] {
-  --primary: #d9d7d6;
-  --secondary: #382d2b;
-}
+.even-child {
+  li:nth-child(even) {
+    text-align: right;
 
-html[data-theme="dark"] {
-  --primary: #382d2b;
-  --secondary: #d9d7d6;
+    h3 {
+      align-self: flex-end;
+      flex-direction: row-reverse;
+    }
+
+    .see-more {
+      align-self: flex-end;
+    }
+
+    img {
+      align-self: flex-end;
+    }
+
+    p {
+      align-self: flex-end;
+    }
+  }
 }
