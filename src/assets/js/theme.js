@@ -1,5 +1,3 @@
-import roughNotation from "./roughnotation";
-
 const themeBtn = document.querySelector(".theme-btn");
 themeBtn.addEventListener("click", () => {
   const html = document.querySelector("html");
@@ -10,12 +8,10 @@ themeBtn.addEventListener("click", () => {
     themeBtn.innerHTML = `
         <i class="fa-regular fa-sun pointer theme-icon theme-notation"></i>
     `;
-    roughNotation();
   } else {
     html.setAttribute("data-theme", "light");
     themeBtn.innerHTML = `
         <i class="fa-regular fa-moon pointer theme-icon theme-notation"></i>
     `;
-    roughNotation();
   }
 });

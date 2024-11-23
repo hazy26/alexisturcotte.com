@@ -4,7 +4,7 @@ const projectsContainer = document.createElement("section");
 main.appendChild(projectsContainer);
 projectsContainer.className = "flex flex-col gap-3";
 projectsContainer.innerHTML = `
-    <h2 class="font-10 weight-400 px-1">{ Projets }</h2>
+    <h2 class="font-10 weight-400 px-2 w-fit">{ Projets }</h2>
     <ul id="projets" class="projects-list list-notype flex flex-col gap-6 even-child">
     </ul>
 `;
@@ -15,7 +15,7 @@ projectsData.forEach((project) => {
   listItem.innerHTML = `
     <li class="flex flex-col">
       <h3 class="flex items-center gap-1 w-60 font-10 weight-400 max-w-520"><span class="bg-highlight h-12 w-full"></span><span>${project.id}</span></h3>
-      <div class="px-1 py-1 flex flex-col gap-1">
+      <div class="px-2 py-1 flex flex-col gap-1">
         <figure class="flex flex-col gap-1">
           <figcaption class="font-6 weight-400">${project.name}</figcaption>
           <img src="${project.img}" alt="${project.alt}"  class="h-200 cover w-60 max-w-280 parallax"/>
