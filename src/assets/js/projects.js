@@ -23,7 +23,7 @@ projectsData.forEach((project) => {
         <h4 class="font-4 weight-500">${project.category}</h4>
         <h4 class="font-4 weight-500">${project.techs}</h4>
         <p class="font-4 weight-300 w-75 max-w-340">${project.desc}</p>
-        <a class="see-more border-1 no-underline w-fit px-1 font-4 weight-400 shadow-sm color-secondary letter-spacing-3 tilt-link transition animate__animated animate__pulse animate__infinite animate__slow" href="${project.href}" target="_blank"> 
+        <a class="see-more border-1 no-underline w-fit px-1 font-4 weight-400 shadow-sm color-secondary btn-primary-hover letter-spacing-3 tilt-link transition animate__animated animate__pulse animate__infinite animate__slow" href="${project.href}" target="_blank"> 
           <i class="fa-regular fa-eye font-3"></i>
           <span class="letter-spacing-1">voir le projet</span>
         </a>

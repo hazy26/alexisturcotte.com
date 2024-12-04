@@ -424,3 +424,28 @@ $fontWeight: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 .w-20 {
   width: 20%;
 }
+
+
+//---------- Random --------//
+.even-child {
+  li:nth-child(even) {
+    text-align: right;
+
+    h3 {
+      align-self: flex-end;
+      flex-direction: row-reverse;
+    }
+
+    .see-more {
+      align-self: flex-end;
+    }
+
+    img {
+      align-self: flex-end;
+    }
+
+    p {
+      align-self: flex-end;
+    }
+  }
+}
