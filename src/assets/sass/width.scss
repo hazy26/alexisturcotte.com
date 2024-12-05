@@ -1,0 +1,47 @@
+@for $i from 1 through 1400 {
+    .max-w-#{$i} {
+      max-width: #{$i}px;
+    }
+  }
+  
+  @for $i from 1 through 1400 {
+      .w-px-#{$i} {
+        width: #{$i}px;
+      }
+    }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .w-fit {
+    width: fit-content;
+  }
+  
+  .w-75 {
+    width: 60%;
+  }
+  
+  .w-60 {
+    width: 60%;
+  }
+  
+  .w-50 {
+    width: 50%;
+  }
+  
+  .w-40 {
+    width: 40%;
+  }
+  
+  .w-35 {
+    width: 35%;
+  }
+  
+  .w-30 {
+    width: 30%;
+  }
+  
+  .w-20 {
+    width: 20%;
+  }

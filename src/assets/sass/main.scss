@@ -1,1 +1,35 @@
-@use "./rules.scss";
+@use "./background.scss";
+@use "./border.scss";
+@use "./colors.scss";
+@use "./divers.scss";
+@use "./flex.scss";
+@use "./font.scss";
+@use "./grid.scss";
+@use "./height.scss";
+@use "./hover.scss";
+@use "./margin.scss";
+@use "./object-fit.scss";
+@use "./padding.scss";
+@use "./position.scss";
+@use "./text.scss";
+@use "./transition.scss";
+@use "./width.scss";
+@use "sass:map";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html[data-theme="light"] {
+    --highlight: #7fbb8f;
+    --primary: #d9d7d6;
+    --secondary: #382d2b;
+}
+
+html[data-theme="dark"] {
+    --highlight: #7fbb8f;
+    --primary: #382d2b;
+    --secondary: #d9d7d6;
+}

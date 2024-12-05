@@ -1,0 +1,13 @@
+@for $i from 1 through 600 {
+    .h-#{$i} {
+      height: #{$i}px;
+    }
+  }
+  
+  .min-dvh {
+    min-height: 100dvh;
+  }
+  
+  .min-dvw {
+    min-width: 100dvw;
+  }

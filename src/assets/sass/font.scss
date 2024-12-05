@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+$breakpoints: (
+  'sm': 640px,
+  'md': 768px,
+  'lg': 1024px,
+  'xl': 1280px,
+);
+
+@mixin media($size) {
+  $screenSize: map-get($breakpoints, $size);
+  @if $screenSize != null {
+      @media (min-width: $screenSize) {
+      @content;
+      }
+  }
+}
+
+.font-primary{
+    font-family: "Montserrat", serif;
+}
+
+$fontSizes: (
+  1: 11px,
+  2: 12px,
+  3: 14px,
+  4: 16px,
+  5: 18px,
+  6: 22px,
+  7: 24px,
+  8: 28px,
+  9: 32px,
+  10: 36px,
+  11: 40px,
+  12: 44px,
+  13: 56px,
+  14: 60px,
+  15: 72px,
+);
+@each $number, $value in $fontSizes {
+  .font-#{$number} {
+    font-size: calc($value / 16px * 1rem);
+  }
+
+  @include media('md') {
+    .md\:font-#{$number} {
+      font-size: calc($value / 16px * 1rem);
+    }
+  }
+
+  @include media('lg') {
+    .lg\:font-#{$number} {
+      font-size: calc($value / 16px * 1rem);
+    }
+  }
+}
+
+$fontWeight: (100, 200, 300, 400, 500, 600, 700, 800, 900);
+@each $value in $fontWeight {
+  .weight-#{$value} {
+    font-weight: $value;
+  }
+}

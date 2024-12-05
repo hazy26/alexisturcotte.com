@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+
+@for $i from 1 through 50 {
+  .gap-#{$i} {
+    gap: #{$i}rem;
+  }
+}
+
+@for $i from 1 through 50 {
+  .grow-#{$i} {
+    flex-grow: #{$i};
+  }
+}
+
+.items-center {
+    align-items: center;
+  }
+  
+  .items-end {
+    align-items: flex-end;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .self-center {
+    align-self: center;
+  }
+  
+  .self-end {
+    align-self: flex-end;
+  }
+  
+  .justify-self-end {
+    justify-self: flex-end;
+  }
+  
+  .justify-self-center {
+    justify-self: center;
+  }
+  
+  .space-between {
+    justify-content: space-between;
+  }

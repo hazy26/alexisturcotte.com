@@ -1,0 +1,37 @@
+//---------- Text Align --------//
+.text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  
+  //---------- Text Decoration & Text Transform --------//
+  .no-underline {
+    text-decoration: none;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+
+
+//---------- Letter Spacing --------//
+@for $i from 1 through 100 {
+  .letter-spacing-#{$i} {
+    letter-spacing: #{$i}px;
+  }
+}
+
+
+//---------- Line Height --------//
+.line-md {
+  line-height: 1.4;
+}

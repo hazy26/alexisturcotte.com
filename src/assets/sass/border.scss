@@ -1,0 +1,17 @@
+.no-border {
+    border: none;
+  }
+  
+  .border-solid {
+    border: solid;
+  }
+  
+  .border-primary {
+    border-color: black;
+  }
+
+  @for $i from 1 through 100 {
+    .border-#{$i} {
+      border: #{$i}px solid var(--secondary);
+    }
+  }
