@@ -6,4 +6,4 @@ import "./footer.js";
 import "./theme.js";
 import "./roughnotation.js";
 import "./tilt.js";
-import "./parallax.js"
+import "./parallax.js";

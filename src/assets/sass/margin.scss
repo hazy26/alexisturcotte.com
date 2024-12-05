@@ -1,18 +1,18 @@
 @for $i from 0 through 50 {
-    .m-#{$i} {
-      margin: #{$i}rem;
-    }
-  
-    .mx-#{$i} {
-      margin: #{$i}rem;
-    }
-  
-    .my-#{$i} {
-      margin: #{$i}rem;
-    }
-  
-    .mx-auto {
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .m-#{$i} {
+    margin: #{$i}rem;
   }
+
+  .mx-#{$i} {
+    margin: #{$i}rem;
+  }
+
+  .my-#{$i} {
+    margin: #{$i}rem;
+  }
+
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

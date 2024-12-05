@@ -1,10 +1,10 @@
 .flex {
-    display: flex;
-  }
-  
-  .flex-col {
-    flex-direction: column;
-  }
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
 
 @for $i from 1 through 50 {
   .gap-#{$i} {
@@ -19,33 +19,33 @@
 }
 
 .items-center {
-    align-items: center;
-  }
-  
-  .items-end {
-    align-items: flex-end;
-  }
-  
-  .justify-end {
-    justify-content: flex-end;
-  }
-  
-  .self-center {
-    align-self: center;
-  }
-  
-  .self-end {
-    align-self: flex-end;
-  }
-  
-  .justify-self-end {
-    justify-self: flex-end;
-  }
-  
-  .justify-self-center {
-    justify-self: center;
-  }
-  
-  .space-between {
-    justify-content: space-between;
-  }
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.justify-self-end {
+  justify-self: flex-end;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}

@@ -15,7 +15,7 @@ boxes.forEach((box) => {
   const annotation = annotate(box, {
     color: "#7fbb8f",
     type: "box",
-    padding: [0, 0]
+    padding: [0, 0],
   });
   annotation.show();
 });
@@ -34,7 +34,7 @@ circles.forEach((circle) => {
   const annotation = annotate(circle, {
     color: "#7fbb8f",
     type: "circle",
-    iterations: 1
+    iterations: 1,
   });
   annotation.show();
 });
@@ -44,8 +44,8 @@ brackets.forEach((bracket) => {
   const annotation = annotate(bracket, {
     color: "#7fbb8f",
     type: "bracket",
-    brackets: ['left', 'right'],
-    padding: [0 , 4]
+    brackets: ["left", "right"],
+    padding: [0, 4],
   });
   annotation.show();
 });
